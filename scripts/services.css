@@ -1,0 +1,111 @@
+
+:root {
+    --color-primary: #5CE1C1;
+    --color-secondary: #00e291;
+    --gradient-green: linear-gradient(90deg, #97ff5a, #5CE1C1);
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    padding-top: 150px;
+    overflow-x: hidden;
+}
+
+
+/* Custom Buttons */
+.btn-gradient-green {
+    background: var(--gradient-green);
+    box-shadow: 0 5px 20px rgba(92, 225, 193, 0.3);
+}
+
+.btn-gradient-green:hover {
+    box-shadow: 0 7px 25px rgba(92, 225, 193, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: #f8f8f8;
+    padding: 50px;
+}
+
+/* Custom accent color */
+.text-accent {
+    color: #5CE1C1;
+}
+
+/* Divider line */
+.divider-line {
+    width: 60px;
+    height: 3px;
+    background: #5CE1C1;
+}
+
+/* Image column special positioning */
+.image-column-offset {
+    position: relative;
+    left: -200px;
+}
+
+.image-column-offset img {
+    width: 150%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Service cards custom styling */
+.service-card {
+    background: #fff;
+    padding: 60px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+
+/* Experts Section Background */
+.experts-section {
+    background: #202020;
+    position: relative;
+    overflow: hidden;
+}
+
+.experts-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.05;
+    z-index: 0;
+}
+
+/* Experts Card Extension */
+.experts-card-extended {
+    background: #fff;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin-right: calc(-1 * ((100vw - 100%) / 2));
+    padding-right: calc(45px + ((100vw - 100%) / 2));
+}
+
+
+
+.card-number {
+    font-size: 21px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.expert-item h3 {
+    font-size: 29px;
+    font-weight: 500;
+    color: #5CE1C1;
+    letter-spacing: 1px;
+}

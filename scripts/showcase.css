@@ -1,0 +1,56 @@
+
+:root {
+    --color-primary: #00d9a6;
+    --color-secondary: #00e291;
+    --gradient-green: linear-gradient(90deg, #97ff5a, #01d6a1);
+}
+
+* {
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    padding-top: 150px;
+    overflow-x: hidden;
+}
+
+
+/* Custom Buttons */
+.btn-gradient-green {
+    background: var(--gradient-green);
+    box-shadow: 0 5px 20px rgba(0, 255, 150, 0.3);
+}
+
+.btn-gradient-green:hover {
+    box-shadow: 0 7px 25px rgba(0, 255, 150, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Highlight text color */
+.text-highlight {
+    color: #63e2b4;
+    font-weight: 400;
+}
+
+/* Portfolio Grid Custom */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.portfolio-item {
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+    

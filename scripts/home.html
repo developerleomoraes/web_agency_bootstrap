@@ -1,55 +1,649 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - Business - Phlox</title>
+    <meta name="description"
+        content="Creating stunning, functional websites that drive results. Expert web design, development, and digital marketing services." />
 
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
+
+
 </head>
 
-<body>
-
-    <!-- Navbar -->
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">Hidden brand</a>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-item-center mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+<body class="pt-5 lh-base">
+    <!-- Header -->
+    <header class="fixed-top">
+        <!-- Top Bar -->
+        <div class="py-2 bg-dark text-white" style="background: #3a3a3a;">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center small">
+                    <div class="d-flex align-items-center gap-3">
+                        <span class="fa fa-phone"></span>
+                        <span>(001) 88451234</span>
+                        <span>88455438</span>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-pinterest"></i></a>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="bg-white shadow-sm">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center py-3">
+                    <div>
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
+                            alt="Logo" height="40">
+                    </div>
+                    <nav class="d-none d-md-flex gap-4">
+                        <a href="home.html" class="text-decoration-none text-dark fw-semibold">HOME</a>
+                        <a href="about.html" class="text-decoration-none text-secondary fw-semibold">ABOUT</a>
+                        <a href="services.html" class="text-decoration-none text-secondary fw-semibold">SERVICES</a>
+                        <a href="showcase.html" class="text-decoration-none text-secondary fw-semibold">SHOWCASE</a>
+                        <a href="blog.html" class="text-decoration-none text-secondary fw-semibold">BLOG</a>
+                        <a href="contact.html" class="text-decoration-none text-secondary fw-semibold">CONTACT</a>
+                    </nav>
+                    <div class="d-flex align-items-center gap-3">
+                        <button class="btn btn-gradient-green text-white rounded-pill px-4 border-0 fw-semibold small"
+                            style="height: 50px;">PURCHASE</button>
+                        <span class="fs-5 text-secondary">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-5 mt-5" style="background: #f3f3f3; min-height: 800px;">
+        <div class="container-fluid position-relative">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="mt-5 mt-lg-0 ps-lg-5">
+                        <p class="mb-3 text-uppercase small fw-semibold" style="letter-spacing: 4px; color: #00d9A6;">17
+                            YEARS OF EXPERIENCE</p>
+                        <h1 class="mb-4 display-2 fw-bold lh-sm">
+                            <span class="d-block">We Are a</span>
+                            Web Design <span style="color: #00e291;">Agency</span>
+                        </h1>
+                        <div class="mb-4">
+                            <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
+                                alt="barra" width="150">
+                        </div>
+                        <p class="mb-4 text-secondary small" style="max-width: 80%;">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                            Semantics, a
+                            large language ocean.
+                        </p>
+                        <button class="btn text-white rounded-pill px-4 fw-semibold small border-0"
+                            style="background: #202020; box-shadow: 0 5px 20px rgba(60, 60, 60, 0.7);">READ
+                            MORE</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <div
+                            class="image-circle mx-auto mx-lg-0 ms-lg-auto rounded-circle d-flex justify-content-center align-items-center">
+                            <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/img1-822x822.jpg"
+                                alt="Agency Image" class="img-fluid rounded-circle object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Links sociais inferiores -->
+            <div class="position-absolute start-0 bottom-0 mb-5 ms-5 d-none d-lg-block">
+                <div class="d-flex gap-4">
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Facebook</a>
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Instagram</a>
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Twitter</a>
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Youtube</a>
+                </div>
+            </div>
+
+            <!-- Navegação do carousel -->
+            <div class="position-absolute start-50 translate-middle-x bottom-0 mb-5">
+                <div class="d-flex gap-3">
+                    <button class="btn btn-light rounded-circle p-0 d-flex align-items-center justify-content-center"
+                        style="width: 35px; height: 35px;">&lt;</button>
+                    <button class="btn btn-light rounded-circle p-0 d-flex align-items-center justify-content-center"
+                        style="width: 35px; height: 35px;">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="display-4 fw-bold mb-4">
+                        We Are Here To Make Your<br>Website Look <span class="text-success">Elegant</span> And Stylish
+                    </h2>
+                    <button class="btn btn-outline-success rounded-pill px-4 fw-semibold small"
+                        style="color: #00d9a6; border-color: #00d9a6;">MORE</button>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="service-card bg-white p-5 rounded-4 border shadow" style="height: 400px;">
+                                <div class="fs-1 mb-4">🎨</div>
+                                <h3 class="h4 fw-bold mb-3">Speed Optimization</h3>
+                                <p class="text-secondary">Far far away, behind the word mountains, far from the
+                                    countries Vokalia Separated...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card bg-white p-5 rounded-4 border shadow" style="height: 400px;">
+                                <div class="fs-1 mb-4">⚙️</div>
+                                <h3 class="h4 fw-bold mb-3">Cloud Solutions</h3>
+                                <p class="text-secondary">Far far away, behind the word mountains, far from the
+                                    countries Vokalia Separated...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card bg-white p-5 rounded-4 border shadow" style="height: 400px;">
+                                <div class="fs-1 mb-4">📱</div>
+                                <h3 class="h4 fw-bold mb-3">Website Design</h3>
+                                <p class="text-secondary">Far far away, behind the word mountains, far from the
+                                    countries Vokalia Separated...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card bg-white p-5 rounded-4 border shadow" style="height: 400px;">
+                                <div class="fs-1 mb-4">📈</div>
+                                <h3 class="h4 fw-bold mb-3">Online Marketing</h3>
+                                <p class="text-secondary">Far far away, behind the word mountains, far from the
+                                    countries Vokalia Separated...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="position-relative">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/businesswoman-analysing-document-P8WSNMC-788x631.jpg"
+                            alt="Team Working" class="img-fluid rounded-3 shadow position-relative" style="z-index: 2;">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 bg-success rounded-3"
+                            style="transform: translate(-20px, -20px); z-index: 1;"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ps-lg-5">
+                        <h2 class="display-4 fw-bold mb-4">
+                            Learn More About<br>Our <span class="text-success">Missions</span>
+                        </h2>
+                        <p class="text-secondary mb-3">
+                            We are dedicated to transforming businesses through innovative web design and development.
+                            Our mission is to create digital experiences that not only look stunning but also drive real
+                            results for
+                            our clients.
+                        </p>
+                        <p class="text-secondary mb-4">
+                            With a team of passionate designers and developers, we bring together creativity and
+                            technical expertise to deliver solutions that exceed expectations.
+                        </p>
+                        <button class="btn btn-outline-success rounded-pill px-4 fw-semibold small"
+                            style="color: #00d9a6; border-color: #00d9a6;">MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="row align-items-start mb-5">
+                <div class="col-lg-1 mb-4 mb-lg-0">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
+                        alt="barra" class="img-fluid">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h2 class="display-4 fw-bold">
+                        Our recent &<br>web designs &<br>some examples of <span class="text-success">past
+                            projects</span>
+                    </h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-secondary">
+                        Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
+                        coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.Far far
+                        away, behind
+                        the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        Separated they live in Bookmarksgrove.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-3 mb-5">
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/ina-soulis-227104-unsplash-768x768.jpg"
+                        alt="Project 1" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/355H-768x768.jpg"
+                        alt="Project 2" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/photo-1448932252197-d19750584e56-490x490.jpg"
+                        alt="Project 3" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/business-competition-PB366D8-490x490.jpg"
+                        alt="Project 4" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cozy-sofa-in-living-room-PQR5AB9-490x490.jpg"
+                        alt="Project 5" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/aa9a4539-PQGJ7HU-490x490.jpg"
+                        alt="Project 6" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cody-davis-253928-unsplash-490x490.jpg"
+                        alt="Project 7" class="img-fluid rounded-3">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/sunisa-misa-531163-unsplash-490x490.jpg"
+                        alt="Project 8" class="img-fluid rounded-3">
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-gradient-green text-white rounded-pill px-4 border-0 fw-semibold small"
+                    style="height: 50px;">READ MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="stats-card text-white p-5 rounded-3" style="width: 520px; height: 480px;">
+                        <div class="text-center mb-5">
+                            <div class="stat-number fw-bold">280</div>
+                            <div class="fs-5 fw-semibold text-uppercase">PROJECTS</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-6">
+                                <div class="stat-number fw-bold">+3,500</div>
+                                <div class="fs-6 fw-semibold text-uppercase">USERS COMMENTS</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-number fw-bold">100%</div>
+                                <div class="fs-6 fw-semibold text-uppercase">HAPPY CLIENTS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-white p-5 rounded-3 shadow"
+                        style="width: 520px; height: 480px; margin-left: -60px; margin-top: 100px;">
+                        <h2 class="display-4 fw-bold mb-3">We <span class="text-success">Love</span> What<br>We Do
+                        </h2>
+                        <div class="mb-4" style="width: 60px; height: 3px; background: #00e291;"></div>
+                        <p class="text-secondary mb-4">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean. Separated they live in Bookmarksgrove. Far far away,
+                            behind the word mountains, large language ocean, far from the countries Vokalia and
+                            Consonantia.
+                        </p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2 text-secondary">✓ far far away, behind the word mountains</li>
+                            <li class="mb-2 text-secondary">✓ large language ocean</li>
+                            <li class="mb-2 text-secondary">✓ far from the countries Vokalia and Consonantia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="pe-lg-4">
+                        <h2 class="display-4 fw-bold mb-4">With <span class="text-success">Live Chat 24/7</span>
+                            Support</h2>
+                        <p class="text-secondary">Choose the plan that fits your business needs. Our flexible pricing
+                            options ensure you get the perfect solution for your web presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="bg-white border rounded-4 p-5 d-flex flex-column h-100"
+                                style="border-width: 2px !important;">
+                                <h3 class="h4 fw-bold mb-3">Basic</h3>
+                                <div class="mb-4" style="font-size: 48px; font-weight: 700; color: #00d9a6;">$10<span
+                                        class="fs-6 fw-normal text-secondary">/mo</span></div>
+                                <ul class="list-unstyled mb-4 flex-grow-1">
+                                    <li class="mb-2 text-secondary">✓ Responsive Design</li>
+                                    <li class="mb-2 text-secondary">✓ 5 Pages</li>
+                                    <li class="mb-2 text-secondary">✓ Basic SEO</li>
+                                    <li class="mb-2 text-secondary">✓ Email Support</li>
+                                </ul>
+                                <button
+                                    class="btn btn-gradient-green text-white rounded-pill fw-semibold small border-0 mt-auto">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white border border-success rounded-4 p-5 d-flex flex-column h-100"
+                                style="border-width: 2px !important;">
+                                <h3 class="h4 fw-bold mb-3">Standard</h3>
+                                <div class="mb-4" style="font-size: 48px; font-weight: 700; color: #00d9a6;">$15<span
+                                        class="fs-6 fw-normal text-secondary">/mo</span></div>
+                                <ul class="list-unstyled mb-4 flex-grow-1">
+                                    <li class="mb-2 text-secondary">✓ Everything in Basic</li>
+                                    <li class="mb-2 text-secondary">✓ 10 Pages</li>
+                                    <li class="mb-2 text-secondary">✓ Advanced SEO</li>
+                                    <li class="mb-2 text-secondary">✓ Priority Support</li>
+                                    <li class="mb-2 text-secondary">✓ Custom Features</li>
+                                </ul>
+                                <button
+                                    class="btn btn-gradient-green text-white rounded-pill fw-semibold small border-0 mt-auto">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white border rounded-4 p-5 d-flex flex-column h-100"
+                                style="border-width: 2px !important;">
+                                <h3 class="h4 fw-bold mb-3">Premium</h3>
+                                <div class="mb-4" style="font-size: 48px; font-weight: 700; color: #00d9a6;">$19<span
+                                        class="fs-6 fw-normal text-secondary">/mo</span></div>
+                                <ul class="list-unstyled mb-4 flex-grow-1">
+                                    <li class="mb-2 text-secondary">✓ Everything in Standard</li>
+                                    <li class="mb-2 text-secondary">✓ Unlimited Pages</li>
+                                    <li class="mb-2 text-secondary">✓ E-commerce Ready</li>
+                                    <li class="mb-2 text-secondary">✓ 24/7 Live Chat</li>
+                                    <li class="mb-2 text-secondary">✓ Monthly Reports</li>
+                                </ul>
+                                <button
+                                    class="btn btn-gradient-green text-white rounded-pill fw-semibold small border-0 mt-auto">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section py-5 text-white position-relative">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="mb-4" style="font-size: 120px; color: #00d9a6; line-height: 0.8;">"</div>
+                    <p class="mb-5 fst-italic" style="font-size: 27px; line-height: 1.8;">
+                        Working with this team has been an absolute pleasure. They transformed our vision into a
+                        stunning website that exceeded all our expectations. Their attention to detail and commitment to
+                        excellence is truly
+                        remarkable.
+                    </p>
+                    <div class="d-flex align-items-center justify-content-center gap-4">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="Client" class="rounded-circle" width="60">
+                        <div class="text-start">
+                            <div class="fw-bold fs-5">Leo Johnson</div>
+                            <div class="opacity-50">Client | CEO, Tech Solutions Inc.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="display-4 fw-bold text-center mb-5">Latest News & <span class="text-success">Our Blog</span></h2>
+
+            <div class="row mb-5 g-4">
+                <div class="col-md-4">
+                    <article>
+                        <div class="overflow-hidden rounded-3 mb-3" style="height: 320px;">
+                            <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/serious-businesswoman-with-documents-talking-on-P9Q6LX6-637x478.jpg"
+                                alt="The Future of Web Design in 2024" class="img-fluid w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="bg-white rounded-3 p-4 shadow-sm position-relative mx-3"
+                            style="margin-top: -40px; z-index: 2;">
+                            <div class="d-flex align-items-center gap-2 mb-3 small fw-medium text-uppercase text-secondary"
+                                style="font-size: 11px; letter-spacing: 0.5px;">
+                                <span>MAY 17, 2018</span>
+                                <span>|</span>
+                                <span>BY ADMIN</span>
+                            </div>
+                            <h3 class="d-flex align-items-start gap-3 fw-semibold"
+                                style="font-size: 18px; line-height: 1.4;">
+                                <span class="rounded-circle bg-success flex-shrink-0"
+                                    style="width: 8px; height: 8px; margin-top: 6px;"></span>
+                                The Future of Web Design in 2024
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article>
+                        <div class="overflow-hidden rounded-3 mb-3" style="height: 320px;">
+                            <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/Businessman-at-the-desk-in-his-office-resting.-637x478.jpg"
+                                alt="Why Mobile-First Design Matters" class="img-fluid w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="bg-white rounded-3 p-4 shadow-sm position-relative mx-3"
+                            style="margin-top: -40px; z-index: 2;">
+                            <div class="d-flex align-items-center gap-2 mb-3 small fw-medium text-uppercase text-secondary"
+                                style="font-size: 11px; letter-spacing: 0.5px;">
+                                <span>MAY 17, 2018</span>
+                                <span>|</span>
+                                <span>BY ADMIN</span>
+                            </div>
+                            <h3 class="d-flex align-items-start gap-3 fw-semibold"
+                                style="font-size: 18px; line-height: 1.4;">
+                                <span class="rounded-circle bg-success flex-shrink-0"
+                                    style="width: 8px; height: 8px; margin-top: 6px;"></span>
+                                Why Mobile-First Design Matters
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article>
+                        <div class="overflow-hidden rounded-3 mb-3" style="height: 320px;">
+                            <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/simple-home-office-with-tree-PBXRXYB-large-637x478.jpg"
+                                alt="SEO Best Practices for 2024" class="img-fluid w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="bg-white rounded-3 p-4 shadow-sm position-relative mx-3"
+                            style="margin-top: -40px; z-index: 2;">
+                            <div class="d-flex align-items-center gap-2 mb-3 small fw-medium text-uppercase text-secondary"
+                                style="font-size: 11px; letter-spacing: 0.5px;">
+                                <span>MAY 17, 2018</span>
+                                <span>|</span>
+                                <span>BY ADMIN</span>
+                            </div>
+                            <h3 class="d-flex align-items-start gap-3 fw-semibold"
+                                style="font-size: 18px; line-height: 1.4;">
+                                <span class="rounded-circle bg-success flex-shrink-0"
+                                    style="width: 8px; height: 8px; margin-top: 6px;"></span>
+                                SEO Best Practices for 2024
+                            </h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-gradient-dark text-white rounded-pill px-4 border-0 fw-semibold small"
+                    style="height: 50px; width: 150px; box-shadow: 0 5px 20px rgba(0, 255, 150, 0.3);">VIEW ALL</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5 g-4">
+                <div class="col-lg-6">
+                    <div class="rounded-4 p-5 text-white text-center d-flex flex-column justify-content-center"
+                        style="background: linear-gradient(135deg, #444444, #000); height: 350px;">
+                        <p class="fs-5 opacity-75">Are You Ready?</p>
+                        <h2 class="display-5 fw-bold">Start a New Project</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="rounded-4 p-5 text-white text-center d-flex flex-column justify-content-center"
+                        style="background: linear-gradient(90deg, #01d6a1, #97ff5a); height: 350px;">
+                        <p class="fs-5 opacity-75">What Are You Waiting for?</p>
+                        <h2 class="display-5 fw-bold">Let's Talk About Work</h2>
+                        <button
+                            class="btn btn-dark text-white rounded-pill px-5 py-3 fw-semibold small border-0 mx-auto mt-4">START
+                            NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clients Section -->
+            <div class="row justify-content-center align-items-center g-4">
+                <div class="col-6 col-md-4 col-lg-2 text-center">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-1@2x.png"
+                        alt="Client 1" class="img-fluid opacity-50" style="height: 40px; filter: grayscale(100%);">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-9@2x.png"
+                        alt="Client 2" class="img-fluid opacity-50" style="height: 40px; filter: grayscale(100%);">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-7@2x.png"
+                        alt="Client 3" class="img-fluid opacity-50" style="height: 40px; filter: grayscale(100%);">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-3@2x.png"
+                        alt="Client 4" class="img-fluid opacity-50" style="height: 40px; filter: grayscale(100%);">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-4@2x.png"
+                        alt="Client 5" class="img-fluid opacity-50" style="height: 40px; filter: grayscale(100%);">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center">
+                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-5@2x.png"
+                        alt="Client 6" class="img-fluid opacity-50" style="height: 40px; filter: grayscale(100%);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="mb-3">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
+                            alt="Logo" height="40">
+                    </div>
+                    <p class="text-secondary">While the lovely valley teems with vapour around me, and the meridian
+                        sun strikes the upper surface of the impenetrable foliage of my trees.While the lovely valley
+                        teems with vapour around
+                        me.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="h5 fw-bold mb-3">QUICK LINKS</h4>
+                    <div class="mb-3" style="width: 60px; margin-top: -20px;">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
+                            alt="barra-footer">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-decoration-none text-dark">About</a></li>
+                        <li class="mb-2"><a href="#services" class="text-decoration-none text-dark">Services</a></li>
+                        <li class="mb-2"><a href="#portfolio" class="text-decoration-none text-dark">Portfolio</a></li>
+                        <li class="mb-2"><a href="#blog" class="text-decoration-none text-dark">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="h5 fw-bold mb-3">CONTACT</h4>
+                    <div class="mb-3" style="width: 60px; margin-top: -20px;">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
+                            alt="barra-footer">
+                    </div>
+                    <ul class="list-unstyled text-secondary small">
+                        <li class="mb-2">Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051</li>
+                        <li class="mb-2"></li>
+                        <li class="mb-2">info@yourdomain.com</li>
+                        <li class="mb-2"></li>
+                        <li class="mb-2">+99 (0) 101 0000 888</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="h5 fw-bold mb-3">LOCATION ON MAP</h4>
+                    <div class="mb-3" style="width: 60px; margin-top: -20px;">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
+                            alt="barra-footer">
+                    </div>
+                    <div class="bg-secondary rounded-3" style="height: 200px;"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Bottom -->
+    <div class="py-4 text-white" style="background-color: #202020;">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="fs-sm mb-3 mb-md-0 text-secondary">&copy; 2026 PHLOX BUSINESS THEME.</p>
+                <div class="d-flex gap-3">
+                    <a href="#"
+                        class="text-white text-decoration-none rounded-circle d-flex align-items-center justify-content-center"
+                        style="width: 35px; height: 35px; background: #2a2a2a;">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#"
+                        class="text-white text-decoration-none rounded-circle d-flex align-items-center justify-content-center"
+                        style="width: 35px; height: 35px; background: #2a2a2a;">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#"
+                        class="text-white text-decoration-none rounded-circle d-flex align-items-center justify-content-center"
+                        style="width: 35px; height: 35px; background: #2a2a2a;">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
-
-
-
-
-
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
