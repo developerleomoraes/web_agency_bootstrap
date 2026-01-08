@@ -1,0 +1,119 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    padding-top: 150px;
+    overflow-x: hidden;
+}
+
+
+.btn-gradient-green {
+    background: linear-gradient(90deg, #97ff5a, #01d6a1);
+    box-shadow: 0 5px 20px rgba(0, 255, 150, 0.3);
+}
+
+/* Sessão Hero */
+.contact-hero {
+    background: #f7f7f7;
+}
+
+.contact-hero__title {
+    color: #52ddbd;
+    letter-spacing: 1px;
+    margin-top: -80px;
+}
+
+/* Mapa */
+.contact-map {
+    height: 500px;
+    background: #2b2b2b url('https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80') center / cover no-repeat;
+    position: relative;
+}
+
+.contact-map::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+}
+
+.map-marker {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+/* Contact Cards */
+.contact-cards {
+    margin-top: -100px;
+    position: relative;
+    z-index: 10;
+}
+
+.contact-card {
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Form Section */
+.contact-form-text__highlight {
+    color: #5CE1C1;
+}
+
+.divider-line {
+    width: 60px;
+    height: 3px;
+    background: #5CE1C1;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 0;
+    background: transparent;
+}
+
+.contact-form__input:focus,
+.contact-form__textarea:focus {
+    outline: none;
+    border-bottom-color: #5CE1C1;
+}
+
+/* CTA Cards */
+.cta-box--dark {
+    background: linear-gradient(135deg, #444444, #000);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    min-height: 350px;
+}
+
+.cta-box--green {
+    background: linear-gradient(90deg, #97ff5a, #01d6a1);
+    box-shadow: 0 10px 40px rgba(0, 217, 166, 0.3);
+    min-height: 350px;
+}
+
+.cta-box__btn {
+    background: linear-gradient(135deg, #444444, #000);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Client Logos */
+.client-logo {
+    height: 40px;
+    opacity: 0.8;
+    filter: grayscale(0%);
+}
+
+/* Object Fit for older Bootstrap versions */
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.footer-map-container {
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

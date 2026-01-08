@@ -8,11 +8,9 @@
     <meta name="description"
         content="Learn more about our creative web design agency, our vision, and meet our talented team of professionals." />
 
-    <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -42,20 +40,22 @@
         </div>
 
         <!-- Main Header -->
-        <div class="bg-white shadow-sm">
+        <div class="bg-white shadow">
             <div class="container">
-                <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="d-flex justify-content-between align-items-center py-4">
                     <div>
                         <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
                             alt="Logo" height="40">
                     </div>
                     <nav class="d-none d-md-flex gap-4">
-                        <a href="home.html" class="text-decoration-none text-dark fw-semibold">HOME</a>
-                        <a href="about.html" class="text-decoration-none text-secondary fw-semibold">ABOUT</a>
-                        <a href="services.html" class="text-decoration-none text-secondary fw-semibold">SERVICES</a>
-                        <a href="showcase.html" class="text-decoration-none text-secondary fw-semibold">SHOWCASE</a>
-                        <a href="blog.html" class="text-decoration-none text-secondary fw-semibold">BLOG</a>
-                        <a href="contact.html" class="text-decoration-none text-secondary fw-semibold">CONTACT</a>
+                        <a href="./home.html" class="text-decoration-none text-secondary fw-normal small">HOME</a>
+                        <a href="#" class="text-decoration-none text-dark fw-normal small">ABOUT</a>
+                        <a href="./services.html"
+                            class="text-decoration-none text-secondary fw-normal small">SERVICES</a>
+                        <a href="./showcase.css"
+                            class="text-decoration-none text-secondary fw-normal small">SHOWCASE</a>
+                        <a href="blog.html" class="text-decoration-none text-secondary fw-normal small">BLOG</a>
+                        <a href="./contact.html" class="text-decoration-none text-secondary fw-normal small">CONTACT</a>
                     </nav>
                     <div class="d-flex align-items-center gap-3">
                         <button class="btn btn-gradient-green text-white rounded-pill px-4 border-0 fw-semibold small"
@@ -69,7 +69,7 @@
 
     <!-- Page Title Section -->
     <section class="page-title-section text-center">
-        <h1 class="display-1 fw-bold" style="color: #00d9a6;">About Page</h1>
+        <h1 class="display-5 fw-semibold mt-3" style="color: #00d9a6;">About Page</h1>
     </section>
 
     <!-- Creative Agency Section -->
@@ -233,64 +233,53 @@
         </div>
     </section>
 
-    <!-- CTA Cards Section -->
-    <section class="py-5" style="background: linear-gradient(0deg, #f5f5f5, #fafafa);">
-        <div class="container">
-            <div class="row g-4">
+    <!-- CTA Section -->
+    <section class="pt-5 pb-3" style="background: linear-gradient(0deg, #f6f6f6, #fff);">
+        <div class="container-fluid px-4 px-md-5 mt-5 mb-4">
+            <div class="row g-4 mb-5">
                 <div class="col-lg-6">
                     <div
-                        class="cta-card-dark rounded-4 text-white text-center d-flex flex-column justify-content-center align-items-center">
-                        <p class="fs-5 opacity-75 mb-3">Are You Ready?</p>
-                        <h3 class="display-5 fw-bold">Start a New Project</h3>
+                        class="cta-box--dark rounded-4 text-white text-center d-flex flex-column justify-content-center align-items-center p-5">
+                        <p class="fs-5 opacity-75 mb-2 fw-normal">Are You Ready?</p>
+                        <h2 class="display-5 fw-bold mt-2">Start a New Project</h2>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <div
-                        class="cta-card-green rounded-4 text-white text-center d-flex flex-column justify-content-center align-items-center">
-                        <p class="fs-5 opacity-75 mb-3">What Are You Waiting for?</p>
-                        <h3 class="display-5 fw-bold mb-4">Let's Talk About Work</h3>
-                        <button class="btn btn-dark text-white rounded-pill px-5 py-3 fw-semibold small border-0">START
-                            NOW</button>
+                        class="cta-box--green rounded-4 text-white text-center d-flex flex-column justify-content-center align-items-center p-5">
+                        <p class="fs-5 opacity-75 mb-2 fw-normal">What Are You Waiting for?</p>
+                        <h2 class="display-5 fw-bold mt-2 mb-4">Let's Talk About Work</h2>
+                        <button class="cta-box__btn btn text-white rounded-pill px-5 py-3 border-0 fw-semibold small"
+                            style="letter-spacing: 1px;">START NOW</button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Clients Logos Section -->
-    <section class="py-5 bg-white">
-        <div class="container">
-            <div class="row justify-content-center align-items-center g-5">
-                <div class="col-6 col-md-4 col-lg-2 text-center">
-                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-1@2x.png"
-                        alt="Client 1" class="client-logo">
-                </div>
-                <div class="col-6 col-md-4 col-lg-2 text-center">
-                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-9@2x.png"
-                        alt="Client 2" class="client-logo">
-                </div>
-                <div class="col-6 col-md-4 col-lg-2 text-center">
-                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-7@2x.png"
-                        alt="Client 3" class="client-logo">
-                </div>
-                <div class="col-6 col-md-4 col-lg-2 text-center">
-                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-3@2x.png"
-                        alt="Client 4" class="client-logo">
-                </div>
-                <div class="col-6 col-md-4 col-lg-2 text-center">
-                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-4@2x.png"
-                        alt="Client 5" class="client-logo">
-                </div>
-                <div class="col-6 col-md-4 col-lg-2 text-center">
-                    <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-5@2x.png"
-                        alt="Client 6" class="client-logo">
+            <!-- Clients Section -->
+            <div class="row justify-content-center my-auto py-5">
+                <div class="col-12">
+                    <div class="d-flex justify-content-around align-items-center flex-wrap gap-4 gap-md-5">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-1@2x.png"
+                            alt="Client 1" class="client-logo">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-9@2x.png"
+                            alt="Client 2" class="client-logo">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-7@2x.png"
+                            alt="Client 3" class="client-logo">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-3@2x.png"
+                            alt="Client 4" class="client-logo">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-4@2x.png"
+                            alt="Client 5" class="client-logo">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/client-5@2x.png"
+                            alt="Client 6" class="client-logo">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="py-5">
+    <footer id="contact" class="py-5 my-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-5">
@@ -306,11 +295,11 @@
                     <h4 class="h5 fw-bold mb-3">QUICK LINKS</h4>
                     <div class="mb-3" style="width: 60px; margin-top: -20px;">
                         <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
-                            alt="barra-footer">
+                            alt="divider">
                     </div>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="home.html" class="text-decoration-none text-dark">Home</a></li>
-                        <li class="mb-2"><a href="about.html" class="text-decoration-none text-dark">About</a></li>
+                        <li class="mb-2"><a href="/" class="text-decoration-none text-dark">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-decoration-none text-dark">About</a></li>
                         <li class="mb-2"><a href="#services" class="text-decoration-none text-dark">Services</a></li>
                         <li class="mb-2"><a href="#portfolio" class="text-decoration-none text-dark">Portfolio</a></li>
                         <li class="mb-2"><a href="#blog" class="text-decoration-none text-dark">Blog</a></li>
@@ -320,7 +309,7 @@
                     <h4 class="h5 fw-bold mb-3">CONTACT</h4>
                     <div class="mb-3" style="width: 60px; margin-top: -20px;">
                         <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
-                            alt="barra-footer">
+                            alt="divider">
                     </div>
                     <ul class="list-unstyled text-secondary small">
                         <li class="mb-2">Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051</li>
@@ -334,9 +323,13 @@
                     <h4 class="h5 fw-bold mb-3">LOCATION ON MAP</h4>
                     <div class="mb-3" style="width: 60px; margin-top: -20px;">
                         <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/divider.svg"
-                            alt="barra-footer">
+                            alt="divider">
                     </div>
-                    <div class="bg-secondary rounded-3" style="height: 200px;"></div>
+                    <!-- Imagem do Mapa com Bootstrap -->
+                    <div class="footer-map-container">
+                        <img src="../assets/Screenshot 2026-01-08 at 11.09.00.png" alt="Location Map"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                    </div>
                 </div>
             </div>
         </div>
@@ -368,8 +361,6 @@
         </div>
     </div>
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
